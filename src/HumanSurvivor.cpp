@@ -1,4 +1,4 @@
-#include "HumanSurvivor.h"
+#include "../include/HumanSurvivor.h"
 #include <iostream>
 using namespace std;
 
