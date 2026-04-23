@@ -53,3 +53,13 @@ Handles:
 - Work only in assigned branch
 - Do NOT edit other member files
 - Commit and push regularly
+
+---
+
+## Contribution Guidelines
+
+- Each member works only on their own branch
+- Do not work directly on `main`
+- Commit per logical change, not per file
+- Push only your own branch
+- Team lead merges all branches into `main`  
