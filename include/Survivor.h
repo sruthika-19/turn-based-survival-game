@@ -17,13 +17,15 @@ protected:
 
 public:
     virtual void takeTurn() = 0;
+    Survivor(string n);
     void search();
     void rest();
     void explore();
-    void useItem();
+    void useItem(const string& itemType);
     void updateStatus();
     void displayStats();
     bool isAlive();
+    void clampStats();
 };
 
 #endif

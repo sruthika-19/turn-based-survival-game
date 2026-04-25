@@ -14,6 +14,7 @@ public:
     void addItem(string item, int qty);
     bool useItem(string item);
     void displayInventory();
+    bool hasItem(const string& item) const;
 };
 
 #endif

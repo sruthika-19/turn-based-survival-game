@@ -10,3 +10,8 @@ bool Inventory::useItem(string item) { return false; }
 
 // Show inventory contents
 void Inventory::displayInventory() {}
+
+bool Inventory::hasItem(const string& item) const {
+    auto it = items.find(item);
+    return it != items.end() && it->second > 0;
+}
