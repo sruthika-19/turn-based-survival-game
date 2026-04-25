@@ -6,6 +6,7 @@
 // AI-controlled survivor
 class AISurvivor : public Survivor {
 public:
+    AISurvivor(string n);
     void takeTurn() override;
 };
 
